@@ -53,8 +53,7 @@ my_canvas.create_image(0, 0, image=bg, anchor="nw")
 # add a label
 my_canvas.create_text(250, 35, text="PasswordGen", font=("Helvetica", 35), fill="green2")
 my_canvas.create_text(250, 95, text="How Many Characters?", font=("Helvetica", 18), fill="green2")
-# label1 = Label( root, image = bg)
-# label1.place(x=0, y=0, relwidth=1, relheight=1)
+
 
 # add Entry
 my_entry = Entry(my_canvas, font=("Helevetica", 25), bg="light grey")
