@@ -54,12 +54,11 @@ my_canvas.create_image(0, 0, image=bg, anchor="nw")
 my_canvas.create_text(250, 35, text="PasswordGen", font=("Helvetica", 35), fill="green2")
 my_canvas.create_text(250, 95, text="How Many Characters?", font=("Helvetica", 18), fill="green2")
 
-
 # add Entry
-my_entry = Entry(my_canvas, font=("Helevetica", 25), bg="light grey")
+my_entry = Entry(my_canvas, font=("Helevetica", 15), bg="light grey", width=4)
 pw_entry = Entry(root, font=("Helevetica", 25), bg="light grey")
 
-my_entry_window = my_canvas.create_window(75, 110, anchor="nw", window=my_entry)
+my_entry_window = my_canvas.create_window(225, 110, anchor="nw", window=my_entry)
 pw_entry_window = my_canvas.create_window(75, 175, anchor="nw", window=pw_entry)
 
 
